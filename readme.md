@@ -131,3 +131,5 @@ text
 - Chặn `/web/database/*`
 - Bật **SSL (Let's Encrypt)**
 - Thiết lập **backup/restore PostgreSQL*
+
+## thong nhat mo hinh lam viec gitlab
