@@ -6,6 +6,9 @@ services:
       POSTGRES_DB: postgres
       POSTGRES_USER: odoo
       POSTGRES_PASSWORD: odoo
+      TZ: Asia/Ho_Chi_Minh
+    ports:
+      - "5432:5432"        # expose PostgreSQL ra host
     volumes:
       - odoo17-db-data:/var/lib/postgresql/data
     restart: unless-stopped
